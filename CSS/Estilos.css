@@ -5,6 +5,9 @@
     list-style: none;
     font-family: sans-serif;
 }
+center {
+    color: rgb(207, 203, 203);
+}
 .calculadora{
     position: relative;
     margin: 20px auto;
@@ -14,21 +17,29 @@
     line-height: 60px;
     background: rgba(19, 19, 20, 0.932);
     color: white;
-    border: 3px solid rgb(114, 165, 161);
+    border: 1px solid rgb(124, 126, 126);
     border-radius: 25px;
+}
+
+body {
+    background-color: rgba(2, 11, 22, 0.966);
 }
 .operaciones{
     margin-left: 20px;
     margin-top: 13px;
     width: 90%;
     height: 70px;
-    background: rgba(17, 17, 17, 0.911);
+    background: rgba(27, 27, 27, 0.87);
     text-align: right;
     border-radius: 10px;
-    color: rgb(10, 102, 64);
+    color: rgb(166, 172, 169);
     font-size: 30px;
     padding: 10px;
     box-sizing: border-box;
+    border: 1px solid rgb(36, 35, 35);
+}
+.operaciones:hover{
+    background: rgba(40, 40, 41, 0.815);
 }
 ul {
     margin: 23px;
@@ -42,9 +53,28 @@ li {
     background-color: rgb(48, 48, 45);
     border-radius: 15px;
     border: 3px solid rgb(24, 23, 23);
+    transition: 0.2s;
 }
 li:hover {
     background: rgba(53, 53, 75, 0.815);
     transform: scale(1.08)
-    
+}
+#borrar {
+    background: rgba(33, 40, 41, 0.822);
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    border: 1px solid rgb(107, 105, 107);
+}
+#borrar:hover {
+    background: rgba(53, 53, 75, 0.815);
+}
+.simbolo {
+    background: rgba(8, 71, 73, 0.918);
+}
+.decimal {
+    background: rgba(8, 71, 73, 0.918);
+}
+.igual {
+    background: rgba(8, 71, 73, 0.918);
 }
